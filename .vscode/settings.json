@@ -1,0 +1,32 @@
+{
+    "json.schemas": [{
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.formatOnSave": true,
+            "editor.formatOnPaste": true,
+            "editor.suggestSelection": "first",
+            "editor.tabSize": 2,
+            "editor.codeActionsOnSave": {
+                "source.fixAll.eslint": true
+            }
+        },
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "javascript.suggest.autoImports": true,
+        "javascript.validate.enable": true,
+        "javascript.suggestionActions.enabled": true,
+        "javascript.format.enable": true,
+        "editor.quickSuggestions": {
+            "strings": true,
+            "other": true,
+            "comments": false
+        }
+    }
+
+    ],
+    "eslint.workingDirectories": [
+        
+        
+        
+    ]
+    
+}
